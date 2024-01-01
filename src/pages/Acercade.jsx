@@ -1,15 +1,15 @@
 import ImgPerfil from "../../public/pp.jpg";
+import Footer from "../components/Footer";
 import Habilidades from "../components/Habilidades";
 import Servicios from "../components/Servicios";
 
 function Acercade() {
-    const fecha = new Date();
     return (
         <>
             <div>
                 <div className="bg-white rounded-lg shadow-sm p-5 flex items-center content-center gap-5 mb-5">
                     <img src={ImgPerfil} alt="Marvin Méndez, Perfil" 
-                        className="w-20 rounded-full"
+                        className="w-20 rounded-full hidden md:block"
                     />
                     <div>
                         <h2 className="uppercase font-black text-3xl mb-3">Acerca de mí</h2>
@@ -34,12 +34,7 @@ function Acercade() {
                 <div className="md:grid grid-cols-3 gap-5 md:px-14">
                     <Habilidades />
                 </div>
-                <div>
-                    <p className="mt-5 text-gray-600 text-end">
-                        Todos los derechos reservados <span className="hidden md:inline">|</span> {' '}
-                        <span className="block font-bold md:inline">Todo de Código &copy; { fecha.getFullYear() } </span>
-                    </p>
-                </div>
+                <Footer />
             </div>    
         </>
   )

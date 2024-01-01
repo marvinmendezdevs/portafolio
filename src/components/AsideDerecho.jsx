@@ -10,11 +10,11 @@ function AsideDerecho() {
                 className="w-20 rounded-full inline-block mx-auto"
             />
             <h3 className="font-bold mt-3 uppercase">Marvin Méndez</h3>
-            <p className="m-0 text-gray-500">Desarrollador web</p>
+            <p className="m-0 text-gray-500">Experto en JavaScript</p>
             <p className="font-bold">Ingeniería en Desarrollo de Software</p>
             <p>Licenciatura en Ciencias de la Educación con especialidad en Matemática</p>
 
-            <a href="#" className="bg-whatsapp p-2 rounded-lg mt-2 text-white flex gap-1 w-max mx-auto font-bold">
+            <a href="https://wa.me/50370511869" className="bg-whatsapp p-2 rounded-lg mt-2 text-white flex gap-1 w-max mx-auto font-bold">
                 <i className="bi bi-whatsapp"></i>
                 ¡Contrátame!
             </a>

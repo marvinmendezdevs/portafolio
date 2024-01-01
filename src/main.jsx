@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css';
-import Index from './pages';
+import Index from './pages/Index';
 import Acercade from './pages/Acercade';
 import Proyectos from './pages/Proyectos';
 
