@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cursor {
+    background: radial-gradient(rgba(29, 78, 216, 0.15), transparent 80%);
+-webkit-filter: blur(100px);
+}
+@media(max-width: 480px){
+    .cursor {
+        display: none;
+    }
+}
+/* Estilo para la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+    background: rgb(15, 23, 42); /* Fondo de la barra de desplazamiento */
+  }
+  
+  /* Estilo para el pulgar de la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5); /* Color del pulgar */
+    border-radius: 6px; /* Radio de borde del pulgar */
+    border: 3px solid rgb(15, 23, 42); /* Borde del pulgar */
+  }
+  
+  /* Estilo para el pulgar de la barra de desplazamiento al pasar el cursor sobre él */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.7); /* Cambio de color al pasar el cursor */
+  }
+    
